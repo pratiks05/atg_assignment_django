@@ -1,0 +1,20 @@
+# Mark HTML files as documentation to reduce their weight in language stats
+*.html linguist-documentation
+
+# Alternative: Mark HTML files as vendored (third-party code)
+# *.html linguist-vendored
+
+# Mark CSS files as documentation if they're mostly styling
+*.css linguist-documentation
+
+# Mark JavaScript files as documentation if they're mostly frontend assets
+*.js linguist-documentation
+
+# Ensure Python files are properly detected
+*.py linguist-language=Python
+
+# Mark template files as documentation
+templates/*.html linguist-documentation
+static/*.html linguist-documentation
+static/*.css linguist-documentation
+static/*.js linguist-documentation
