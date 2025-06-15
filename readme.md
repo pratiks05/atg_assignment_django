@@ -1,4 +1,4 @@
-```markdown
+
 # Django Authentication App
 
 A simple Django web application with user authentication and role-based dashboards.
